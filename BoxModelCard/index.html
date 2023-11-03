@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>pslib landing page</title>
+  <link rel="stylesheet" href="styles/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="https://pslib.cz/"><img src="./imgs/logo.svg" alt="logo SPŠSE a VOŠ, Liberec" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Domů
+              <span class="sr-only">(vybraný)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ELE">Elektro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#IKT">IKT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">Kontakty</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="row">
+      <div class="col my-4">&nbsp;</div>
+    </div>
+
+    <div class="row">
+      <header class="col-lg-3">
+        <h1 class="my-4">Informační portál</h1>
+        <nav class="list-group">
+          <a href="https://pslib.cz/obory" class="list-group-item">Obory</a>
+          <a href="https://pslib.cz/o-skole" class="list-group-item">O škole</a>
+          <a href="https://pslib.cz/pro-uchazece" class="list-group-item">Uchazeči</a>
+        </nav>
+      </header>
+
+      <div class="col-lg-9">
+        <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block img-fluid" src="./imgs/prijimacky.jpg" alt="student na přijímačkách" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="./imgs/schedule.jpg" alt="plánování" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="./imgs/prg.jpg" alt="programování" />
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">předchozí</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">další</span>
+          </a>
+        </div>
+
+        <!-- vaše práce začíná zde  -->
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <figure class="kartaoboru">
+              <header class="kartaoboru__head">
+                <a href="https://pslib.cz/obory/technicke-lyceum/zamereni-oboru/webdesign"><img src="./imgs/L.jpg"
+                    class="img-responsive" alt="pracovní stůl designéra" /></a>
+              </header>
+              <div class="kartaoboru__body">
+                <h2 class="kartaoboru__title">
+                  <a class="kartaoboru__link" href="#">Technické lyceum</a>
+                </h2>
+                <p class="kartaoboru__code">78 - 42 - M/01</p>
+                <p>
+                  Technické lyceum má dvě zaměření (3D technologie a
+                  webdesign), která se ve vzdělávání projeví až ve čtvrtém
+                  ročníku.
+                </p>
+              </div>
+              <footer class="kartaoboru__foot">
+                <small class="stars-block">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </footer>
+            </figure>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <figure class="kartaoboru">
+              <header class="kartaoboru__head">
+                <a href="https://pslib.cz/obory/informacni-technologie/zamereni-oboru"><img class="card-img-top"
+                    src="./imgs/P.jpg" class="img-responsive" alt="umělá inteligence" /></a>
+              </header>
+              <div class="kartaoboru__body">
+                <h2 class="kartaoboru__title">
+                  <a class="kartaoboru__link" href="#">Informační technologie</a>
+                </h2>
+                <p class="kartaoboru__code">18 - 20 - M/01</p>
+                <p>
+                  Příprava žáků je zaměřena na oblasti spojené s programováním
+                  a vývojem software, operační systémy a počítačové sítě.
+                </p>
+              </div>
+              <footer class="kartaoboru__foot">
+                <small class="stars-block">&#9733; &#9733; &#9733; &#9734; &#9734;</small>
+              </footer>
+            </figure>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <figure class="kartaoboru">
+              <header class="kartaoboru__head">
+                <a href="https://pslib.cz/obory/strojirenstvi/zamereni/pocitacova-podpora-techniky"><img
+                    src="./imgs/S.jpg" class="img-responsive" alt="motor s písty" /></a>
+              </header>
+              <div class="kartaoboru__body">
+                <h2 class="kartaoboru__title">
+                  <a class="kartaoboru__link" href="#">Počítačová podpora techniky</a>
+                </h2>
+                <p class="kartaoboru__code">23-41-M/01</p>
+                <p>
+                  Absolvent může vykonávat tyto pracovní pozice: konstruktér,
+                  technolog, programátor CNC strojů, konstruktér nástrojů a
+                  přípravků...
+                </p>
+              </div>
+              <footer class="kartaoboru__foot">
+                <small class="stars-block">&#9733; &#9733; &#9734; &#9734; &#9734;</small>
+              </footer>
+            </figure>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <figure class="kartaoboru">
+              <header class="kartaoboru__head">
+                <a
+                  href="https://pslib.cz/obory/elektrotechnika/zamereni/zamereni-na-automatizaci-a-sdelovaci-techniku-"><img
+                    src="./imgs/Ea.jpg" class="img-responsive" alt="deska plošného spoje" /></a>
+              </header>
+              <div class="kartaoboru__body">
+                <h2 class="kartaoboru__title">
+                  <a class="kartaoboru__link" href="#">Automatizace a sdělovací technika</a>
+                </h2>
+                <p class="kartaoboru__code">26 - 41 - M/01</p>
+                <p>
+                  Absolventi se mohou uplatnit jako technici, operátoři a
+                  programátoři.
+                </p>
+              </div>
+              <footer class="kartaoboru__foot">
+                <small class="stars-block">&#9733; &#9734; &#9734; &#9734; &#9734;</small>
+              </footer>
+            </figure>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <figure class="kartaoboru">
+              <header class="kartaoboru__head">
+                <a
+                  href="https://pslib.cz/obory/elektrotechnika/zamereni/prumyslova-elektrotechnika-vykonova-elektronika-a-ridici-systemy"><img
+                    src="./imgs/Eb.jpg" class="img-responsive" alt="sloupy vysokého napětí" /></a>
+              </header>
+              <div class="kartaoboru__body">
+                <h2 class="kartaoboru__title">
+                  <a class="kartaoboru__link" href="#">Průmyslová elektrotechnika</a>
+                </h2>
+                <p class="kartaoboru__code">26 - 41 - M/01</p>
+                <p>
+                  Vzdělávání oboru elektrotechnika se zaměřením na průmyslovou
+                  elektrotechniku, výkonovou elektroniku a řídící systémy...
+                </p>
+              </div>
+              <footer class="kartaoboru__foot">
+                <small class="stars-block">&#9733; &#9733; &#9734; &#9734; &#9734;</small>
+              </footer>
+            </figure>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <figure class="kartaoboru">
+              <header class="kartaoboru__head">
+                <a
+                  href="https://pslib.cz/obory/elektrotechnika/zamereni/robotika-internet-veci-a-prumyslove-ridici-systemy"><img
+                    src="./imgs/Ec.jpg" class="img-responsive" alt="robotické rameno" /></a>
+              </header>
+              <div class="kartaoboru__body">
+                <h2 class="kartaoboru__title">
+                  <a class="kartaoboru__link" href="#">Robotika</a>
+                </h2>
+                <p class="kartaoboru__code">26 - 41 - M/01</p>
+                <p>
+                  Robotika, internet věcí a průmyslové řídicí systémy...
+                </p>
+              </div>
+              <footer class="kartaoboru__foot">
+                <small class="stars-block">&#9733; &#9733; &#9733; &#9734; &#9734;</small>
+              </footer>
+            </figure>
+          </div>
+        </div>
+
+        <!-- konec vaší práce  -->
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">
+        <small>Copyright &copy; komise IT 2018</small>
+      </p>
+      <address id="contacts" class="text-center text-white">
+        <a href="mailto:p2016@pslib.cloud">email: IT@pslib.cloud</a>
+      </address>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>
