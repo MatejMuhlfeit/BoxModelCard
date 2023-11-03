@@ -1,35 +1,48 @@
 .kartaoboru {
-
+    border: 0.2px solid black;
+    border-radius: 10px;
+   
 }
 
 .kartaoboru__head {
-
+    border-radius: 10px;
 }
 
 .kartaoboru__title {
+    font-size: x-large;
+    font-weight: bold;
 
+    
+    
 }
 
 .kartaoboru__body {
-
+     padding: 5px;
 }
 
 .kartaoboru__foot {
-
+    padding: 5px;
+    background-color: lightgray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 0.2px solid black;
 }
 
 .kartaoboru__code {
-
+    font-weight: bold;
 }
 
 .kartaoboru__link {
-
-}
+    color:  darkcyan;
+}   
 
 .img-responsive {
-
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
 }
 
 .stars-block {
-
+    color: black;
 }
